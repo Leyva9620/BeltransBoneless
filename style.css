@@ -1,0 +1,255 @@
+body{
+    background-color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    color: aliceblue;
+    padding: 1.5rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer {
+    background-color:black ;
+    padding: 2rem 0;
+    color: aliceblue;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+}
+
+footer section {
+    float: right ;
+}
+
+.logo{
+    letter-spacing: 1.5px;
+    font-size: 2em;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    /* cursor: pointer; */
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.2rem 1rem;
+    transition: all 0.5s linear;
+    font-size: 1.5em;
+}
+
+.navigation ul li a:hover {
+    background-color: rgb(226, 172, 35);
+}
+
+.creative {
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.h2 {
+    font-size: 36px;
+    /* width: 100%; */
+    text-align: center;
+    margin: auto;
+}
+
+#pantalla-dividida p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.tit {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.tite {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(204, 92, 17);
+    font-weight: bold;
+    background-color: goldenrod;
+}
+
+section a{
+    border: 1px solid beige;
+    padding: 20px;
+    text-decoration: none;
+    color:rgb(85, 85, 84);
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.main {
+    padding-top: 5rem;
+}
+
+.izquierda {
+    background: rgb(248, 224, 7);
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+.izquierda p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.derecha1 {
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.derecha1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.derecha2 {
+    background: rgb(231, 104, 20);
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+.derecha2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.derecha {
+    background-image: url(bone1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+#Bienvenidos {
+    text-align: center;
+}
+
+#blog .container {
+    display: flex;
+    justify-content: center;
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#Bienvenidos p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.tituloF {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: rgb(10, 8, 34) ;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+/* @media (max-width:480px){
+    form{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+} */
